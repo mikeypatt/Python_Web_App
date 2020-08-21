@@ -17,8 +17,6 @@ crs = {'init': 'epsg:4326'}
 poi_coordinates_geo = geopandas.GeoDataFrame(
     df,geometry=geopandas.points_from_xy(list_of_points_of_interest.longtitude,list_of_points_of_interest.latitude))
 
-
-#Creates a geopandas dataframe from poi list
 geometry_police = [Point(xy) for xy in zip(london_police_stations.longtitude, london_police_stations.latitude)]
 df = london_police_stations.drop(['longtitude', 'latitude'], axis=1)
 crs = {'init': 'epsg:4326'}
