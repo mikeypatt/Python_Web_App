@@ -1,0 +1,361 @@
+/* Custom App CSS Below --------------------------------- */
+/*Fonts ––––––––––––––––––––––––––––––––––––––––––––––––––*/
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+* { margin: 0px; padding: 0px;}
+
+/* Main Layout ––––––––––––––––––––––––––––––––––––––––––––––––––*/
+body {
+  background-color: #1E1E1E;
+  color: #d8d8d8;
+  margin: 0;
+  padding: 0;
+    font-size: 10px;
+}
+h1 {
+  font-family: "Open Sans";
+  font-weight: bold;
+  letter-spacing: 2.1px;
+  font-size: 30px;
+  padding-left: 10px;
+}
+h2, h3, h4, h5 {
+  font-family: "Open Sans";
+  font-weight: bold;
+  letter-spacing: 2.1px;
+  font-size: 15px;
+  padding-left: 10px;
+}
+p {
+  font-family: "Open Sans";
+  font-weight: 400;
+  font-size: 14px;
+  padding-left: 12px;
+}
+a {
+  text-decoration: none;
+}
+.bg-grey{
+  background-color: #31302F;
+}
+.text-padding{
+  padding: 5px;
+}
+/* Graph Layout ––––––––––––––––––––––––––––––––––––––––––––––––––*/
+.div-for-charts{
+  display: flex;
+  flex-direction: column;
+  width: 104%;
+}
+
+.graph-padding{
+  padding-left: 5px;
+}
+
+.div-for-map{
+  position: fixed;
+    bottom: 0;
+    /*width: 100%;*/
+      width: 77%;
+
+}
+
+.div-for-news-stream{
+    background-color: #1E1E1E;
+}
+
+.div-news-gap{
+    background-color: #1E1E1E;
+}
+
+h2 {
+    line-height: 1vh;
+    letter-spacing: .3rem;
+    margin-bottom: 0rem;
+    margin-top: 0rem;
+}
+
+iframe {
+    border-width: 0px;
+    border-style: inset;
+    border-color: initial;
+    border-image: initial;
+
+}
+
+
+.div-for-title {
+        background-color: #1E1E1E;
+}
+
+.rc-slider-disabled{
+    background-color: #a3a7a6;
+}
+
+.iBXht .rc-slider-disabled, .iBXht .rc-slider-disabled {
+    background-color: #a3a7a6;
+}
+
+#histogram {
+  flex-grow: 1
+}
+
+/* Graph Control Objects ––––––––––––––––––––––––––––––––––––––––––––––––––*/
+.div-user-controls {
+    overflow:hidden;
+
+    background-color: #1E1E1E;
+}
+
+.div-for-area-beneath-control-tabs{
+    background-color: #292927;
+    margin-left:5px;
+}
+
+.div-for-bar {
+    padding-bottom: 15px;
+    background-color: #292927;
+}
+
+.div-for-dropdown {
+    padding-right: 10px;
+    padding-left: 10px;
+    margin: 0 auto;
+    background-color: #292927;
+
+}
+
+.div-for-date-selector {
+    padding-top: 30px;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-bottom: 30px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #292927;
+
+
+}
+
+.div-for-search-button {
+    padding-top: 50px;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-bottom: 5px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #292927;
+}
+
+.div-for-toggle {
+    padding-bottom: 2px;
+    margin: 0 auto;
+}
+
+.div-for-submit-button {
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    margin: 0 auto;
+}
+
+.div-for-search {
+    padding-bottom: 5px;
+    margin: 10%;
+    textAlign: center;
+    background-color: #292927;
+}
+
+.div-for-search-title {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    background-color: #1E1E1E;
+}
+
+.div-for-info {
+    background-color: #1E1E1E;
+}
+
+.div-for-slider {
+   padding-top: 20px;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.div-for-slider-date {
+  padding-top: 4px;
+    padding-bottom: 0px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.div-for-wrapper {
+overflow: hidden; /* add this to contain floated children */
+}
+
+.Select-control, .Select-menu-outer, .Select-multi-value-wrapper, .select-up, .is-open .Select-control {
+  background-color: #1E1E1E;
+  color: white;
+
+}
+
+#bar-selector .Select-multi-value-wrapper{
+  max-height: 5vh;
+  overflow-y: auto;
+  margin: 0px 0px -3px 0px;
+}
+
+.Select-control{
+  border: 0.5px solid #dbdbdb44;
+}
+
+.has-value.Select--single>.Select-control .Select-value .Select-value-label, .has-value.is-pseudo-focused.Select--single>.Select-control .Select-value .Select-value-label {
+  color: white;
+}
+._dash-app-content {
+  overflow-x: hidden;
+  overflow-y: hidden;
+  position: relative;
+}
+.has-value.Select--single>.Select-control .Select-value .Select-value-label, .has-value.is-pseudo-focused.Select--single>.Select-control .Select-value .Select-value-label{
+  color: #d8d8d8;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+#date {
+  background-color: #1e1e1e;
+  font-family: "Open Sans";
+  font-weight: 400;
+  color: #dbdbdb;
+  border: 0.5px solid #dbdbdb44;
+}
+
+#date-picker{
+  width: 100%;
+}
+
+.DateRangePickerInput_arrow_svg {
+    vertical-align: middle;
+    fill: #484848;
+    height: 15px;
+    width: 15px;
+}
+
+._dash-undo-redo {
+  display: none;
+}
+.DateInput.DateInput_1{
+  width: 45%;
+    Height: 30px;
+}
+.SingleDatePickerInput__withBorder{
+  border:none;
+}
+
+.DateInput.DateInput_1 {
+  background-color: #1e1e1e;
+}
+
+.SingleDatePickerInput__withBorder {
+  border-radius: 3px;
+  color: #dbdbdb;
+  background: #1e1e1e;
+  background-color: #1e1e1e;
+}
+.DateRangePickerInput.DateRangePickerInput_1.DateRangePickerInput__withBorder.DateRangePickerInput__withBorder_2 {
+  border: 0.0px solid #dbdbdb;
+  display: block;
+  color: #292927;
+  background: #292927;
+    background-color: #292927;
+
+}
+
+.rc-slider {
+  width: 80%;
+}
+
+.SingleDatePicker_1 {
+  border: 0.0px solid #dbdbdb;
+  display: block;
+}
+
+.SingleDatePicker_picker, .SingleDatePicker_picker_1, .SingleDatePicker_picker__directionLeft,
+.SingleDatePicker_picker__directionLeft_2{
+  filter:invert(100%);
+}
+
+/* For Mobile Phones and small screens ––––––––––––––––––––––––––––––––––––––––––––––––––*/
+@media only screen and (max-width: 768px) {
+  .four, .eight {
+      min-width: 100%;
+ }
+  h1, h2, h3, p {
+      text-align: center;
+ }
+  body {
+      display: block;
+      margin: 0px;
+      overflow-y: scroll;
+  }
+
+  .div-for-charts {
+      padding: 0px;
+      width: 100%;
+      text-align: center;
+      box-shadow: 2px 2px 2px lightgrey;
+ }
+
+ .side-by-side{
+    display: inline-block;
+    width: 48%;
+  }
+
+
+ .side-by-side-right{
+    display: inline-block;
+    width: 48%;
+    float:right;
+  }
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px !important;
+  display: block !important;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #1e1e1e !important;
+  border-radius: 10px !important;
+  display: block !important;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: transparent;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #d8d8d870 !important;
+}
+
+ /* Forms –––––––––––––––––––––––––––––––––––––––––––––––––– */
+  input[type="email"], input[type="number"], input[type="search"], input[type="text"], input[type="tel"], input[type="url"], input[type="password"], textarea, select {
+    height: 30px;
+    padding: 6px 10px;
+   /* The 6px vertically centers text on FF, ignored by Webkit */
+    background-color: #fff;
+    border: 1px solid #D1D1D1;
+    border-radius: 4px;
+    box-shadow: none;
+    box-sizing: border-box;
+    font-family: inherit;
+    font-size: inherit;
+   /*https://stackoverflow.com/questions/6080413/why-doesnt-input-inherit-the-font-from-body*/
+  }
